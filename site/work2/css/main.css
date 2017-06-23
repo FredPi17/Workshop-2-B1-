@@ -1,0 +1,118 @@
+@media screen and (max-width: 720px)
+{
+	aside{
+	float:bottom;
+	}
+	#title{
+		text-align:center;
+		background-color:black;
+		color:white;
+		padding:10px;
+		font-size: 10px;
+	}
+	/*h2{
+		font-size: 20px
+	}*/
+	.gauge
+	{
+	    width: 150px;
+	    vertical-align: center;
+	    display: inline-block;
+	}
+
+	#contenu
+	{
+	text-align: center;
+	margin-left: -100px;
+	}
+
+	#r1
+	{
+		background-color: grey;
+		padding: 10px;
+		border-radius: 25px;
+		font-size: 10px;
+		vertical-align: center;
+	}
+	#r
+	{
+
+	}
+	#contenu, aside{
+	display: block;
+}
+}
+
+/*img{
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}*/
+/*#main {
+background-color: black;
+color: white;
+opacity: 0.6;
+width: 50%;
+height: 60%;
+text-align: center;
+}*/
+#r1{
+	background-color: grey;
+	padding: 10px;
+	border-radius: 25px;
+	font-size: 40px;
+	vertical-align: center;
+
+}
+#r{
+	background-color: grey;
+	padding: 10px;
+	border-radius: 25px;
+	font-size: 40px;
+	vertical-align: center;
+
+}
+#droite, #gauche{
+	display:inline-block;
+	background-color: grey;
+	border-radius: 25px;
+	width: 500px;
+	text-align: center;
+}
+#contenu{
+	text-align: center;
+	margin-left: 15%;
+}
+#contenu, aside{
+	display: inline-block;
+}
+#title{
+	text-align:center;
+	background-color:black;
+	color:white;
+	padding:10px;
+}
+#charts{
+	opacity:2;
+	color: black;
+	background-color: white;
+	border-radius: 20px;
+	border: 1px solid black;
+	height: auto;
+}
+/*.container
+{
+    width: 450px;
+    margin: 0 auto;
+   /* text-align: center;*/
+/*}*/
+aside{
+	float:left;
+	/*height: 150px;*/
+}
+.gauge
+{
+    width: 150px;
+    vertical-align: center;
+}
