@@ -1,0 +1,38 @@
+@media screen and (max-width: 1280px)
+{
+
+}
+body{
+  background-color: white;
+}
+img{
+  z-index: -1;
+  width: 100%;
+  height: auto;
+}
+div {
+background-color: black;
+color: white;
+opacity: 0.6;
+/*position: absolute;
+left: 0;
+top: 20%;
+width: 100%;*/
+text-align: center;
+}
+
+h1{
+
+}
+#main, #left, #right{
+	display: inline-block;
+	text-align: center;
+}
+#main{
+	width: 50%;
+	height: 75%;
+}
+#left, #right{
+	width: 10%;
+	height: 75%;
+}
